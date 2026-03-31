@@ -1,4 +1,4 @@
-# transactional-outbox-wake-signal
+# Outbox Worker in Python
 
 A minimal, runnable showcase of the **Transactional Outbox + Wake Signal** pattern: a brokerless background job queue built with FastAPI, asyncio, and `ThreadPoolExecutor`. No Celery, no Redis, no Kafka — just a PostgreSQL table and two concurrency primitives.
 
